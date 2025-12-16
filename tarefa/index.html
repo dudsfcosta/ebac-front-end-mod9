@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Lista de Clientes</h2>
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="cliente"></label>
+                <input id="cliente" type="text" placeholder="Nome do Cliente" required>
+                <label for="email"></label>
+                <input id="email" type="email" placeholder="Email do Cliente" required>
+                <button id="add" type="button">Adicionar</button>
+            </form>
+            <table id="tabelaClientes">
+                <tr>
+                    <th>Cliente</th>
+                    <th>E-mail</th>
+                    <th>Remover</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Eduarda Ferreira Costa</p>
+    </footer>
+</body>
+</html>
