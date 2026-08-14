@@ -1,4 +1,4 @@
-# 📋 Lista de Tarefas (To-Do List) com API Rest
+# 📋 Lista de Tarefas com API Rest
 
 Uma aplicação web simples e objetiva para gerenciamento de tarefas. O grande diferencial deste projeto é a integração com uma API REST externa para persistência de dados, realizando operações assíncronas de Leitura, Criação e Exclusão (operações essenciais de CRUD).
 
